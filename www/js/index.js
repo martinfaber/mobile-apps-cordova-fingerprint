@@ -84,10 +84,6 @@ var app = {
 
         var encryptConfig = {
           clientId: "myAppName",
-          username: "currentUser",
-          password: "currentUserPassword",
-          maxAttempts: 5,
-          locale: "en_US",
           dialogTitle: "Hello to my Touch ID authentication",
           dialogMessage: "Please place your finger on your Touch ID sensor",
           dialogHint: "No one will steal your identity, promised"
