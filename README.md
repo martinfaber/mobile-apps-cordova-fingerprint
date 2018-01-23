@@ -21,7 +21,17 @@ In the emulator go to `settings` - `Security & location` - `Fingerprint` and fol
 
 To **authenticate**(fingerprint or backup) something with the fingerprint device, just call the `encrypt(..)` method. This method expects an object with its configuration, but for an simple authentication you just need the clientId. If you want to use more features of the encryptconfig-object, you can look it up [here](https://github.com/mjwheatley/cordova-plugin-android-fingerprint-auth#fingerprintauth-config-object).
 
-![Initial fingerprint authentication screen](/images/Android_2.jpg)
+<p align="center">
+  <img src="/img/Android_2.png" width="250"/>
+  <img src="/img/Android_3.png" width="250"/>
+  <img src="/img/Android_1.png" width="250"/>
+</p>
 
 
+## iOS
+
+<p align="center">
+  <img src="/img/iOS_1.PNG" width="250"/>
+  <img src="/img/iOS_2.PNG" width="250"/>
+</p>
 
