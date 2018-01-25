@@ -1,5 +1,5 @@
 # mobile-apps-cordova-fingerprint
-An Apache Cordova application for fingerprint authentication
+An Apache Cordova application example for fingerprint authentication as part of my "Mobile Applications" lecture.
 
 ## Android
 ### Installation
@@ -8,6 +8,10 @@ To use the touch ID on an Android device, you have to install the following plug
 To install the plugin, execute the following command in the command promt (be sure to be in the right folder): 
 ```shell
 cordova plugin add cordova-plugin-android-fingerprint-auth
+```
+or clone the repository:
+```shell
+cordova plugin add https://github.com/mjwheatley/cordova-plugin-android-fingerprint-auth.git
 ```
 
 ### Usage
@@ -25,9 +29,9 @@ In the emulator go to `settings` - `Security & location` - `Fingerprint` and fol
 
 ### Screenshots
 <p align="center">
-  <img src="/img/Android_2.png" width="250"/>
-  <img src="/img/Android_3.png" width="250"/>
-  <img src="/img/Android_1.png" width="250"/>
+  <img src="/img/Android_2.png" width="250" height="433"/>
+  <img src="/img/Android_3.png" width="250" height="433"/>
+  <img src="/img/Android_1.png" width="250" height="433"/>
 </p>
 
 
@@ -107,3 +111,8 @@ window.plugins.touchid.didFingerprintDatabaseChange(
   <img src="/img/iOS_2.PNG" width="250"/>
 </p>
 
+## Sources
+
+* [How to use fingerprint authentication in cordova (phonegap,ionic) for Android and iOS](https://ourcodeworld.com/articles/read/190/how-to-use-fingerprint-authentication-in-cordova-phonegap-ionic-for-android-and-ios)
+* [EddyVerbruggen/cordova-plugin-touch-id](https://github.com/EddyVerbruggen/cordova-plugin-touch-id)
+* [mjwheatley/cordova-plugin-android-fingerprint-auth](https://github.com/mjwheatley/cordova-plugin-android-fingerprint-auth)
