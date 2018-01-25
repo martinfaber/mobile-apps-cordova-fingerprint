@@ -5,6 +5,33 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Run ios on emulator",
+            "type": "cordova",
+            "request": "launch",
+            "platform": "ios",
+            "target": "emulator",
+            "sourceMaps": true,
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "name": "Run android on emulator",
+            "type": "cordova",
+            "request": "launch",
+            "platform": "android",
+            "target": "emulator",
+            "sourceMaps": true,
+            "cwd": "${workspaceRoot}"
+        },
+    {
+        "name": "Run ios on device",
+        "type": "cordova",
+        "request": "launch",
+        "platform": "ios",
+        "target": "device",
+        "sourceMaps": true,
+        "cwd": "${workspaceRoot}"
+    },
+        {
             "type": "node",
             "request": "launch",
             "name": "Launch Program",

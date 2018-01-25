@@ -19,11 +19,11 @@
 var app = {
     // Application Constructor
     initialize: function() {
-        //document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
+        document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
         document.getElementById("verifyFP").addEventListener("click", this.verifyFingerprint.bind(this));
     },
 
-    /*
+
     // deviceready Event Handler
     //
     // Bind any cordova events here. Common events are:
@@ -44,7 +44,7 @@ var app = {
 
         console.log('Received Event: ' + id);
     },
-    */
+
 
   verifyFingerprintiOS: function () {
       window.plugins.touchid.isAvailable(
@@ -84,10 +84,6 @@ var app = {
 
         var encryptConfig = {
           clientId: "myAppName",
-          username: "currentUser",
-          password: "currentUserPassword",
-          maxAttempts: 5,
-          locale: "en_US",
           dialogTitle: "Hello to my Touch ID authentication",
           dialogMessage: "Please place your finger on your Touch ID sensor",
           dialogHint: "No one will steal your identity, promised"

@@ -1,4 +1,12 @@
+.DS_Store
 /.idea
+/.vscode
+/hooks
 /node_modules
+/platforms
+/plugins
+/res
+/typings
 *.iml
 .npmignore
+
